@@ -13,7 +13,7 @@ public class Main {
         startPhone();
         printMenu();
         while (!quit) {
-            System.out.println("Enter action: (6 to show available actions)");
+            System.out.println("Enter action: (6 to show available actions)\r");
             int action = in.nextInt();
             in.nextLine();
             switch (action) {
